@@ -14,8 +14,8 @@ h1 span {
   position: relative;
   top: 20px;
   display: inline-block;
-  -webkit-animation: bounce .3s ease infinite alternate;
-          animation: bounce .3s ease infinite alternate;
+  -webkit-animation: bounce .8s ease infinite alternate;
+          animation: bounce .8s ease infinite alternate;
   font-size: 80px;
   line-height:110px;
   color: #FFF;
@@ -146,9 +146,9 @@ a {
    color: #000;
 }
 #section-portfolio {
-  width: 100%;
+    width: 100%;
     float: left;
-    background: rgb(226, 229, 232,.9);
+    background: rgb(240 242 244);
 }
 .site-navbar {
   border: none;
@@ -213,7 +213,7 @@ a {
     -ms-transform: translateY(0%);
     transform: translateY(0%); }
     .site-navbar.scrolled.bg-light {
-          background-color: #19398a !important;
+          background-color: #8e78ff !important;
     box-shadow: 0 4px 8px 0 hsla(0,0%,7%,.5); }
     .site-navbar.scrolled .navbar-brand {
       display: inline-block;
@@ -238,20 +238,17 @@ a {
       color: #000; }
     .site-navbar.scrolled .dropdown > a:before {
       color: rgba(0, 0, 0, 0.4); }
-    .site-navbar.scrolled .navbar-nav > li > a {
-     border-radius: 5px;}
       .site-navbar.scrolled .navbar-nav > li > a:hover {
          color: #fff!important;
-    background-image: linear-gradient(to top left,#e83965,#e52e71)!important;
-    border-radius: 1px;}
+    border-bottom: 4px double #fff;
+    transition: 0.2s;}
       .site-navbar.scrolled .navbar-nav > li > a.active {
              color: #fff!important;
-    background-image: linear-gradient(to top left,#e83965,#e52e71)!important;
-    border-radius: 1px;
+        border-bottom: 4px double #fff;
 } 
 .custom-btn-bg {
   
-   background-image: linear-gradient(to top left,#e83965,#e52e71)!important;
+       background-image: linear-gradient(to top left,#8e78ff,#604acf)!important;
     font-size: 16px !important;
     color: #fff;
 
@@ -262,6 +259,32 @@ a {
     background: #35bbfd; }
 .mob-logo img {
   height: 60px;
+}
+.list-pannel ul {
+  padding: 0px;
+  list-style: none;
+}
+.list-pannel ul li {
+  float: left;
+  display: inline-block;
+  width: auto;
+  margin-bottom: 15px;
+}
+.list-pannel ul li a {
+      padding: 5px 15px;
+    border: 1px solid #fff;
+    margin: 1px 2px;
+    border-radius: 2px;
+}
+.list-pannel {
+     width: 100%;
+    float: left;
+    background: #08246d;
+    /* height: 100%; */
+    padding: 21px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
 }
 .site-hero {
   background-color: #ccc;
@@ -281,7 +304,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-     background-image: linear-gradient(to right, rgba(0,76,147,1), rgba(255,0,0,0)); }
+       background-image: linear-gradient(to right, rgb(39 24 118), rgba(255,0,0,0));}
        .logo {
         float: left;
     text-align: left;
@@ -290,7 +313,7 @@ a {
        #section-about img {
             border-top-left-radius: 200px;
     border-top-right-radius: 200px;
-    border: 4px solid #3965e8;
+    border: 4px solid #684cf8;
     box-shadow: 0 30px 100px -20px rgba(0, 0, 0, 0.4);
     max-width: 500px;
     margin: 0 auto;
@@ -457,7 +480,7 @@ a {
         color: #e83965; }
       .filters ul li.active {
                 color: #ffffff;
-    background-image: linear-gradient(to top left,#e83965,#e52e71)!important;
+        background-image: linear-gradient(to top left,#6b55da,#8771f7)!important;
     border-radius: 1px; }
 
 .single-portfolio {
@@ -557,19 +580,20 @@ a {
   width: 100%; }
 
 .image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: .5s ease;
-  -o-transition: .5s ease;
-  transition: .5s ease;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-      box-shadow: -2px 2px 5px 1px rgba(0,0,0,0.75);
+     opacity: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    box-shadow: -2px 2px 5px 1px rgb(170 176 180);
     /* border: 1px solid #fff; */
     padding: 5px;
-    background: #fff; }
+    background: #fff;
+    border-radius: 10px; }
 
 .middle {
   -webkit-transition: .5s ease;
@@ -610,16 +634,17 @@ a {
       transition: none; } }
 
 .resume-item {
-    padding: 15px;
+       padding: 15px;
     background: #e2e7f5;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    border: 2px solid #6f6f6f;
-    border-width: 3px;
-    border-style: solid;
-    border-image: linear-gradient( to bottom, #e7336d, rgba(0, 0, 0, 0) ) 1 100%;
-   box-shadow: -2px 2px 5px 1px rgba(0,0,0,0.75); }
+    /* border: 2px solid #6f6f6f; */
+    /* border-width: 3px; */
+    /* border-style: solid; */
+    /* border-image: linear-gradient( to bottom, #e7336d, rgba(0, 0, 0, 0) ) 1 100%; */
+    box-shadow: -2px 2px 5px 1px rgb(2 62 123);
+    border-radius: 15px; }
   #section-resume {
         float: left;
     width: 100%;
@@ -640,10 +665,10 @@ a {
     right: 0;
     display: block;
     top: 0;
-          background: rgba(0,76,147,.8);
+          background: rgba(0,76,147,.9);
   }
   #section-about {
-    background: rgb(226, 229, 232,.9);
+    background: rgb(252 253 255 / 96%);
   }
   #section-contact {
         float: left;
@@ -684,7 +709,7 @@ a {
     display: block;
     font-size: 16px; }
   .resume-item h3 {
-    color: #fb4e85;
+    color: #4a2ed7;
     font-size: 20px; }
   .resume-item .school {
         color: #084277; }
@@ -961,7 +986,7 @@ width: 150px;
     background: #f8f8f9;
     padding: 8px;
     border-radius: 7px;
-    box-shadow: -2px 2px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 5px 1px rgb(6 52 96);
 }
 .circle strong {
     position: absolute;
@@ -1054,7 +1079,7 @@ width: 150px;
     background: #f8f8f9;
     padding: 15px;
     border-radius: 2px;
-    box-shadow: -2px 2px 5px 1px rgba(0,0,0,0.75); }
+    box-shadow: -2px 2px 5px 1px rgb(0 64 125);}
   .site-contact-details li > span {
         color: #484545;
     letter-spacing: .1em;
@@ -1068,7 +1093,7 @@ width: 150px;
     background: #f8f8f9;
     padding: 15px;
     border-radius: 2px;
-    box-shadow: -2px 2px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: -2px 2px 5px 1px rgb(4 41 77);
 }
 .site-footer {
   padding: 3em 0; }
@@ -1078,7 +1103,7 @@ width: 150px;
     display: inline-block;
     width: 60px;
     height: 60px;
-    background: #19398a;
+    background: #5842c9;
     position: relative;
     border-radius: 50%;
     font-size: 22px;
