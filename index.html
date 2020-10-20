@@ -8,7 +8,9 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<link rel="stylesheet" href="fonts/icomoon/style.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<link href="css/aos.css" rel="stylesheet">
+	<!-- <link href="css/aos.css" rel="stylesheet"> -->
+	<link rel="stylesheet" type="text/css" href="css/pushbar.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
 </head>
@@ -19,7 +21,7 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class="mob-logo"><a href="#"><img src="images/logo.png" alt="logo" title="logo"></a></div>
+			<div class="mob-logo"><a href="#" data-pushbar-target="bottom"><img src="images/logo.png" alt="logo" title="logo"></a></div>
 
 
 			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
@@ -43,20 +45,8 @@
 			<div class="row intro-text align-items-center justify-content-center">
 				<div class="col-md-10 text-center">
 
-					<!-- <h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Debabrata Mondal</strong></h1> -->
-					 <h1>
-	<span>Hello,</span>
-  <span>I'm</span><br>
-  <span>D</span>
-  <span>E</span>
-  <span>B</span>
-  <span>A</span>
-  <span>B</span>
-  <span>R</span>
-  <span>A</span>
-  <span>T</span>
-  <span>A</span>
-</h1>
+					<h1 class="site-heading site-animate">Hello, I'm <strong class="d-block">Debabrata Mondal</strong></h1>
+			
 					<strong class="d-block text-white text-uppercase letter-spacing">FRONT-END DEVELOPER</strong>
 
 				</div>
@@ -99,19 +89,6 @@
 				</div>
 				<div class="col-md-6">
 					<h2 class="mb-5" data-aos="fade-up" data-aos-duration="2000">Education</h2>
-					<div class="resume-item mb-4" data-aos="fade-up" data-aos-duration="2000">
-						<span class="date"><span class="icon-calendar"></span> Passed: 2012</span>
-						<h3>Madhyamik (Secondary)</h3>
-						<p>From Gopalnagar Haripada Institution</p>
-						<span class="school"><span class="f-bord">West Bengal Board of Secondary Education </span>(WBSE)</span>
-					</div>
-
-					<div class="resume-item mb-4" data-aos="fade-up" data-aos-duration="2000">
-						<span class="date"><span class="icon-calendar"></span>Passed: 2014</span>
-						<h3>Higher Secondary (H.S)</h3>
-						<p>From Gopalnagar Haripada Institution</p>
-						<span class="school"><span class="f-bord">West Bengal Council of Higher Secondary Education </span>(WBCHSE)</span>
-					</div>
 
 					<div class="resume-item mb-4" data-aos="fade-up" data-aos-duration="2000">
 						<span class="date"><span class="icon-calendar"></span> Ongoing</span>
@@ -122,7 +99,7 @@
 
 					<div class="resume-item mb-4" data-aos="fade-up" data-aos-duration="2000">
 						<span class="date"><span class="icon-calendar"></span> October 2017 - September 2018 </span>
-						<h3>Web Design Course</h3>
+						<h3>FRONT-END DEVELOPMENT COURSE</h3>
 						<p>From Barasat ,Hridaypur, North 24 Pgs</p>
 						<span class="school">Barasat</span>
 					</div>
@@ -147,13 +124,6 @@
 						<span class="school">Dumdum</span>
 					</div>
 
-						<div class="resume-item mb-4" data-aos="fade-up" data-aos-duration="2000">
-						<span class="date"><span class="icon-calendar"></span> February 2015 - Auguest 2017</span>
-						<h3>Back Office Job.</h3>
-						<p>Nargis Export , Bongaon</p>
-						<span class="school">Bongaon</span>
-					</div>
-
 
 				</div>
 			</div>
@@ -169,27 +139,27 @@
 				</div>
 			</div>
 		
-<div class="circle" id="circle-html" data-aos="fade-up" data-aos-duration="2000">
+<div class="circle" id="circle-html">
 	<strong></strong>
 	<p>Html</p>
 </div>
-<div class="circle" id="circle-css" data-aos="fade-up" data-aos-duration="2000">
+<div class="circle" id="circle-css">
 	<strong></strong>
 	<p>Css</p>
 </div>
-<div class="circle" id="circle-photoshop" data-aos="fade-down" data-aos-duration="2000">
+<div class="circle" id="circle-photoshop">
 	<strong></strong>
 	<p>Photoshop</p>
 </div>
-<div class="circle" id="circle-bootstrap" data-aos="fade-down" data-aos-duration="2000">
+<div class="circle" id="circle-bootstrap">
 	<strong></strong>
 	<p>Bootstrap</p>
 </div>
-<div class="circle" id="circle-jquery" data-aos="fade-up" data-aos-duration="2000">
+<div class="circle" id="circle-jquery">
 	<strong></strong>
 	<p>Jquery</p>
 </div>
-<div class="circle" id="circle-wordpress" data-aos="fade-up" data-aos-duration="2000">
+<div class="circle" id="circle-wordpress">
 	<strong></strong>
 	<p>Wordpress</p>
 </div>
@@ -215,6 +185,7 @@
 					<li data-filter=".cooldrinks">Cool Drinks</li>
 					<li data-filter=".pipe">Pipe</li>
 					<li data-filter=".multi">Multi</li>
+					<li data-filter=".things">Things</li>
 				</ul>
 			</div>
 
@@ -232,7 +203,7 @@
 					</div>
 					<div class="single-portfolio col-sm-4 all hotel" >
 						<div class="relative">
-							<a href="http://www.blueorchidhotel.com/" target="_blank">
+							<a href="http://blueorchid.rentapg.com/" target="_blank">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
 								<img class="image img-fluid" src="images/blue-orchid-hotel.jpg" alt="">
@@ -242,7 +213,7 @@
 					</div>                            
 					<div class="single-portfolio col-sm-4 all music">
 						<div class="relative">
-							<a href="https://sandreehome.com/ams-html/" target="_blank">
+							<a href="https://www.australianacademyofmusic.com/" target="_blank">
 							<div class="thumb">
 								<div class="overlay overlay-bg"></div>
 								<img class="image img-fluid" src="images/ams.jpg" alt="">
@@ -295,22 +266,23 @@
 				</div>
 
 				<div class="col-md-7 mb-5 mb-md-0">
-					<form action="" class="site-form" method="get">
+					<form action="mailto:debabrata.dustu5@gmail.com?subject=My Information" class="site-form" enctype="text/plain" method="post" subject="test">
 						<h3 class="mb-5">Get In Touch</h3>
 						<div class="form-body">
 						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Your Name" minlength="4" required>
+							<input type="text" name="Name" class="form-control px-3 py-4" placeholder="Your Name" minlength="4" required>
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Email" required>
+							<input type="Email" name="Mail" class="form-control px-3 py-4" placeholder="Your Email" required>
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" maxlength="12" minlength="10" placeholder="Your Phone" required>
+							<input type="text" name="Mobile" class="form-control px-3 py-4" maxlength="12" minlength="10" placeholder="Your Phone" required>
 						</div>
 						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4"cols="30" rows="2" placeholder="Write a Message"></textarea>
+							<textarea class="form-control px-3 py-4"cols="20" rows="2" name="Message" placeholder="Write a Message"></textarea>
 						</div>
 						<div class="form-group">
+							
 							<input type="submit" class="btn custom-btn-bg  px-4 py-3" value="Send Message" required>
 						</div>
 					</div>
@@ -326,15 +298,10 @@
 						</li>
 						<li>
 							<span class="text-uppercase"> <span class="icon-phone"> </span> Phone</span>
-							+91 8768611937 / 9064344165
-						</li>
-						<li>
-							<span class="text-uppercase"> <span class="icon-whatsapp"> </span> Whatsapp</span>
-							+91 8768611937
+							+91 9064344165
 						</li>
 						<li>
 							<span class="text-uppercase"> <span class="icon-location"> </span>Address</span>
-							Polta (Sundarpur Road), <br>
 							Bongaon, North 24 Parganas, Pin-743235,  <br>
 							West Bengal, India.
 						</li>
@@ -343,8 +310,55 @@
 			</div>
 		</div>
 	</section>
+		<aside data-pushbar-id="bottom" class="pushbar from_bottom">
+		<div class="title"><span data-pushbar-close class="close push_right"></span> Bottom</div>
+		<div class="things-list-body">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="list-pannel">
+							<p>Free Images & Icons</p>
+							<ul>
+								<li><a href="https://www.freepik.com/" target="_blank">Freepik</a></li>
+								<li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
+								<li><a href="https://pixabay.com/" target="_blank">Pixabay</a></li>
+								<li><a href="https://www.pexels.com/" target="_blank">Pexels</a></li>
+								<li><a href="https://www.flaticon.com/" target="_blank">Flaticon</a></li>
+								<li><a href="https://pngtree.com/" target="_blank">Pngtree</a></li>
+								<li><a href="https://www.iconfinder.com/" target="_blank">Iconfinder</a></li>
+							</ul>
+						</div>
+						<div class="list-pannel">
+							<p>UI Color Concepts</p>
+							<ul>
+								<li><a href="https://www.colorhexa.com/" target="_blank">Colorhexa</a></li>
+								<li><a href="https://material.io/" target="_blank">Material</a></li>
+								<li><a href="https://www.framer.com/" target="_blank">Framer</a></li>
+							</ul>
+						</div>
+						<div class="list-pannel">
+							<p>Free Fonts & Icons</p>
+							<ul>
+								<li><a href="https://www.dafont.com/" target="_blank">Dafont</a></li>
+								<li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
+								<li><a href="https://www.urbanfonts.com/free-fonts.htm" target="_blank">Urbanfonts</a></li>
+								<li><a href="https://fontawesome.com/" target="_blank">Fontawesome</a></li>
+							</ul>
+						</div>
+							<div class="list-pannel">
+							<p>Website Speed Test</p>
+							<ul>
+								<li><a href="https://gtmetrix.com/" target="_blank">Gtmetrix</a></li>
+								<li><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Google Page Speed</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
-
+	</aside>
+				<!-- <div><button data-pushbar-target="bottom">Bottom pushbar</button></div> -->
 	<footer class="site-footer">
 		<div class="container">
 
@@ -360,8 +374,11 @@
 						<a href="https://mail.google.com" target="_blank" class="social-item d-m-w"><span class="icon-mail"></span></a>
 						<a href="https://web.whatsapp.com/" class="social-item d-m-w"><span class="icon-whatsapp"></span></a>
 						<a href="https://www.facebook.com/profile.php?id=100010919176620" target="_blank" class="social-item"><span class="icon-facebook2"></span></a>
-						<a href="https://www.instagram.com/" class="social-item" target="_blank"><span class="icon-instagram2"></span></a>
-						<a href="https://www.linkedin.com" class="social-item" target="_blank"><span class="icon-linkedin2"></span></a>
+						<a href="https://www.instagram.com/debabrata1108" class="social-item" target="_blank"><span class="icon-instagram2"></span></a>
+						<a href="https://www.linkedin.com/in/debabrata-mondal-8ba5b5153" class="social-item" target="_blank"><span class="icon-linkedin2"></span></a>
+						<a href="https://twitter.com/Debabra53064496" class="social-item" target="_blank"><span class="icon-twitter"></span></a>
+						<a href="https://github.com/debabratawd" class="social-item" target="_blank"><span class="icon-github"></span></a>
+
 					</p>
 				</div>
 			</div>
@@ -386,7 +403,14 @@
 	<script src="js/isotope.pkgd.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/custom.js"></script>
-	<script src="js/aos.js"></script> 
+<!-- 	<script src="js/aos.js"></script>  -->
+	  <script type="text/javascript" src="js/pushbar.js"></script>	
+<script type="text/javascript">
+	var pushbar = new Pushbar({
+		blur:true,
+		overlay:true,
+	});
+</script>
 	<script type="text/javascript" src="js/circle-progress.min.js"></script>
 	<script type="text/javascript">var progressBarOptions = {
 	startAngle: -1.55,
@@ -427,14 +451,14 @@ $('#circle-jquery').circleProgress({
 	}
 });
 $('#circle-wordpress').circleProgress({
-	value : 0.30,
+	value : 0.40,
 	fill: {
 		color: '#43b9f3'
 	}
 });
 </script>
-<script>
+<!-- <script>
     AOS.init();
-  </script> 
+  </script>  -->
     </body>
     </html>
